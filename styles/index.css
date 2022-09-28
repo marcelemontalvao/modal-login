@@ -1,0 +1,113 @@
+/* Desenvolva seu código aqui... */
+body {
+    background-color: var(--color-grey-1);
+    font-family: "Roboto", sans-serif;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 714px;
+    height: 407px;
+    background-color: var(--color-primary);
+    border-radius: 8px;
+}
+
+.left {
+    background-color: var(--color-grey-4);
+    width: 321px;
+    height: 407px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.left div {
+    font-size: 13px;
+    color: var(--color-grey-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.left h1 {
+    color: var(--color-grey-2);
+    margin-bottom: 10px;
+}
+
+.right {
+    color: var(--color-grey-3);
+    font-size: 13px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.right button {
+    width: 44%;
+    border: none;
+    height: 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-4);
+}
+
+span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container-modal {
+    background-color: rgba(33, 37, 41, 0.8);
+    width: 100%;
+    height: 100%;    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    display: none;
+}
+
+.modal {
+    width: 346px;
+    height: 312px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 28px 22px;
+    gap: 36px;
+    border-radius: 8px;
+}
+
+.modal button {
+    border: none;
+    width: 100%;
+    height: 20px;
+    background-color: var(--color-grey-4);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+.icon ion-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
